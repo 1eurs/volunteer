@@ -6,7 +6,7 @@ const jobSchema = {
   location: String,
   requirements: String,
   createdAt: String,
-  users: [Objects],
+  users: [String],
 };
 
 const jobModel = mongoose.model("jobModel", jobSchema);
